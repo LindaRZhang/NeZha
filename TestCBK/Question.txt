@@ -1,0 +1,11 @@
+Critique of the Current Site Navigation
+*The current site navigation is ok. It could be better, for example maybe
+adding a lightbox gallery or Modal Image Gallery. 
+*The hamburger on top right of navbar when expanded could be further improve
+for the user to see better.
+*When you click the button it doesnt always go to the very start of the 
+section and that can be improve for both mobile and destop
+*The font color and size could be improve
+*There could be a button to change the webpage into many different languages
+*A search bar to search things
+*The format could be better for tablet, mobile and desktop

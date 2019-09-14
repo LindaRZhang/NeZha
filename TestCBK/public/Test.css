@@ -1,0 +1,40 @@
+
+body { 
+  padding-top: 56px;
+}
+
+a{
+  color: black!important;
+}
+/*.carousel-control-next,
+.carousel-control-prev {
+filter: invert(100%);
+}*/
+@media screen and (min-width: 800px) {
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    position: relative;
+    z-index: 1!important;
+  }
+  .viewport{
+      height: 88vh;
+  }
+}
+.resize{
+  width: 437px;
+  height: 777px;
+  margin: auto;
+
+}
+@media screen and (max-width: 575px) {
+.caption {
+  font-size:77%!important;
+  }
+}
+
+
+
+
+

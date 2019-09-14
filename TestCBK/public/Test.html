@@ -1,0 +1,281 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8"> <!--Chinese Allow-->
+        <link rel="shortcut icon" href="Images/aau30logo.gif" type="image/x-icon"/>
+        <link rel="stylesheet" href="Test.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.js"></script>
+        <script src="Darkskys.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" href="Images/favi.ico"> <!--favicon but on the localhost thing it's not there-->
+
+        <!--Navigation Bar-->
+        <nav class=" navbar-expand-lg fixed-top btn-danger">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="navbar-header">
+                            <img alt="Brand" src="Images/favi.PNG" width="111px" height="90px">
+                        </div>
+                    </div>
+
+                    <div class="col-5 mt-3">
+                        <div id="navibarsss" class=" collapse navbar-collapse NavButton btn-group-Lg" role="group">
+                            <div class="navbar-nav float-right text-right pr-3">
+                                <button type="button" class="btn btn-warning" ><a href="#Home">Home</a></button>
+                                <button type="button" class="btn btn-warning"><a class = "nav-item nav-link active" href="#About">About</a></button>
+                                <button type="button" class="btn btn-warning"><a href="#Pic">Quotes</a></button>
+                                <button type="button" class="btn btn-warning" ><a href="#Weather">Weather</a></button>
+                                <button type="button" class="btn btn-warning"><a href="#Media">Social Media</a></button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navibarsss" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </head>
+
+    <body class="bg-warning">
+        <!--Carousel Sliding image-->
+        <div class="container-fluid mt-5" id="Home" >
+            <div class = "row ">
+                <div class="col">
+                    <div id = "First" class="carousel slide" data-ride="carousel" data-interval="6666">
+
+                        <!--indicators dot nav, the dots-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#First" data-slide-to="0" class="active"></li>
+                            <li data-target="#First" data-slide-to="1" ></li>
+                            <li data-target="#First" data-slide-to="2" ></li>
+                            <li data-target="#First" data-slide-to="3" ></li>
+                            <li data-target="#First" data-slide-to="4" ></li>
+                            <li data-target="#First" data-slide-to="5" ></li>
+                            <li data-target="#First" data-slide-to="6" ></li>
+
+                        </ol>
+
+                        <!--Slides/images-->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"> <!--The image that open on webpage Keyword: active-->
+
+
+                                <img class="viewport d-block w-100"src="images/i0.jpg" alt="First"/>
+                                <div class="carousel-caption">
+                                    <h1 class="caption">People Misunderstand, then I'll fight this world alone</h1></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="viewport d-block w-100"src="images/i1.jpg"/>
+                                <div class="carousel-caption">
+                                    <h1 class="caption">Right and wrong, no need for you, I want to burn all the power given by life</h1></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="viewport d-block w-100"src="images/i2.jpg"/>
+                                <div class="carousel-caption">
+                                    <h1 class="caption">I control my own life, not the sky</h1></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class=" viewport d-block w-100"src="Images/i6.jpeg">
+                                <div class="carousel-caption">
+                                    <h1 class="caption">Never stick to any secular mortal eyes. I am going to the light in front</h1></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="viewport d-block w-100"src="Images/i7.jpg">
+                                <div class="carousel-caption">
+                                    <h1 class="caption">
+                                        Then let me bet on the last throw.
+                                        Don't want to spend the day in the dark</h1></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="viewport d-block w-100"src="Images/i8.jpg">
+                                <div class="carousel-caption">
+                                    <h1 class="caption text-left">There are not many opportunities to <br>change your destiny in your life</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="viewport d-block w-100"src="Images/i9.jpg">
+                                <div class="carousel-caption">
+                                    <h1 class="caption">Breaking everything of right and wrong authentic definitions</h1></div>
+                            </div>
+                        </div>
+
+                        <!--Navigation arrow things <>-->
+                        <a href = "#First" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a href = "#First" class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--about-->
+        <div class="container mt-5">
+            <div class = "row  bg-danger mb-3">
+                <h1 id="About"  class="mx-auto">About</h1></div>
+            <div class="row">
+                <div class="col my-auto">
+
+                    <p>A young boy, Ne Zha, is birthed from a heavenly pearl by the Primeval Lord of Heaven. Born with unique powers, Nezha finds himself as an outcast who is hated and feared. Destined by prophecy to bring destruction to the world, the young boy must choose between good and evil in order to break the shackles of fate and become the hero
+                    </p>
+                    <d1 class = "d1-horizontal">
+                        <dt>USA Release:</dt>
+                        <dd>August 29 2019</dd>
+                        <dt>Director:</dt>
+                        <dd>Jiao Zi</dd>
+                        <dt>Cast:</dt>
+                        <dd>Lyu Yanting, Cao Yalong, Wang Zheng, Chen Hao, Zeng Hongru, Yang Wei, Zhang Jiaming</dd>
+                        <dt>Genre:</dt>
+                        <dd>Kids&amp;Family, Comedy, Fantasy</dd>
+                        <dt>Run Time:</dt>
+                        <dd>110 min</dd>
+                    </d1>
+                    <footer class="text-muted">- Information from<cite title="Source Title"> Well Go USA</cite></footer><br>
+                    <p>Ne Zha is born as a devil, but so what? In the end it is his choices that shape him. Ne Zha is born to fight against his fate and part of peoples' ugly side</p></div>
+                <div class="col">
+                    <div id = "Second" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-item active">
+                            <h1>Trailer</h1>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xdOgym7MLAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <h1>Opening Song</h1>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yNdEpo8W8NU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <h1>Ending Song</h1>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dfe6glrbRHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <h1>Ne Zha, Tang Sheng, and Monkey King</h1>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Mn427ahVvZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <a href = "#Second" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a href = "#Second" class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Pictures/quotes-->
+        <div class="container my-5">
+            <div class="row bg-danger mb-3">
+                <h1 id="Pic" class="mx-auto">Quotes</h1>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <a href="Images/q1.jpg">
+                        <img src="Images/q1.jpg" alt="1" class="img-thumbnail zoom resize" data-lightbox="photos"></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <a href="Images/q2.jpg">
+                        <img src="Images/q2.jpg" alt="2" class="img-thumbnail zoom resize" data-lightbox="photos"></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="Images/q3.jpg">
+                        <img src="Images/q3.jpg" alt="3" class="img-thumbnail zoom resize" data-lightbox="photos"></a>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="Images/q4.jpg">
+                        <img src="Images/q4.jpg" alt="4" class="img-thumbnail zoom resize" data-lightbox="photos"></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="Images/q5.jpg">
+                        <img src="Images/q5.jpg" alt="5" class="img-thumbnail zoom resize" data-lightbox="photos"></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="Images/q6.jpg">
+                        <img src="Images/q6.jpg" alt="6" class="img-thumbnail zoom resize" data-lightbox="photos"></a>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="Images/q7.jpg">
+                        <img src="Images/q7.jpg" alt="7" class="img-thumbnail zoom resize"></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="Images/q8.jpg">
+                        <img src="Images/q8.jpg" alt="4" class="img-thumbnail zoom resize"></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="Images/q9.jpg">
+                        <img src="Images/q9.jpg" alt="4" class="img-thumbnail zoom resize"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Weather-->
+        <div class="container mb-5">
+            <div class="row">
+                <h1 id="Weather" class="mx-auto bg-danger">Weather In Los_Angeles</h1>
+            </div>
+            <div class="row">
+                <div class="mx-auto">
+                    <canvas id="icon" width="100" height="100"></canvas>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <div class="title">Wind</div>
+                    <div id="wind">tbd</div>                </div>
+
+                <div class="col text-center">
+                    <div class="title">Temperature</div>
+                    <div id="temp">tbd</div>                </div>
+
+                <div class="col text-center">
+                    <div class="title">Precipitation</div>
+                    <div id="preci">tbd</div>                </div>
+            </div>
+        </div>
+
+
+        <!--Media-->
+        <div class="container-fluid bg-danger">
+            <div class="row mb-5 bg-danger">
+                <h1 id="Media" class="mx-auto">Social Media</h1>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Good Luck</h2>
+                    <p>我命由我不由天</p>
+                    <p>Ne Zha: I am the master of my fate</p>
+                    <p>William Ernest Henley: I am the captain of my soul</p>
+                </div>
+                <div class="col text-center">
+                    <h2>Address</h2>
+                    <p>3 ChengTang, Heaven, PA 12345</p>
+                </div>
+                <div class="col text-center">
+                    <h2>Follow Us</h2>
+                    <a href = "https://www.facebook.com/NeZhaIAmTheDestiny/?ref=py_c" class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fa fa-facebook-f"></i></a>
+                    <a href = "https://twitter.com/hashtag/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96"class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fa fa-twitter"></i></a>
+                    <a href = "https://www.instagram.com/explore/tags/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96/" class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fa fa-instagram"></i></a>
+                    <br /><a href="https://www.wellgousa.com/films/ne-zha">Well Go USA</a>
+                    <br />
+                    <a href="https://darksky.net/poweredby" class="darksky-logo">Power By DarkSky</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
